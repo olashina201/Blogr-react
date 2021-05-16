@@ -6,7 +6,7 @@ function Design() {
     return (
         <div class="topSection">
             <h2>Designed for the future</h2>
-            <img src={illustration} alt="editor-graphic" />
+            <img src={illustration} alt="" />
             <div class="tsText">
                 <div class="text">
                     <h3>Introducing an extensible editor</h3>

@@ -2,6 +2,7 @@
     background: url(../images/bg-pattern-circles.svg) center no-repeat, hsl(237, 23%, 32%);
     height: 300px;
     margin-top: 30px;
+    margin-bottom: 300px;
     border-radius: 0px 70px 0px 70px;
     -webkit-border-radius: 0px 70px 0px 70px;
     -moz-border-radius: 0px 70px 0px 70px;
@@ -9,6 +10,7 @@
     -o-border-radius: 0px 70px 0px 70px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .mc{
@@ -48,4 +50,52 @@
 }
 .dright1 .dright2{
     color: #000;
+}
+
+@media screen and (max-width: 900px) {
+    .mc{
+        display: flex;
+        flex-direction: column;
+        color: #000;
+        align-items: center;
+    }
+    .design2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .design2 img {
+        visibility: visible;
+        display: block;
+        width: 100%;
+      }
+    .dleft{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .imgl{
+        width: 20px;
+    }
+    .mc{
+        visibility: visible;
+        display: block;
+        width: 100%;
+      }
+    .mcright{
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+    .dright{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 40px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
 }
