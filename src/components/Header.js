@@ -8,6 +8,8 @@ import arrowLight from "../images/icon-arrow-light.svg"
 function Header() {
     const [nav, setNav] = useState(false)
 
+    const toggle = () => setNav(!nav);
+
     return (
         <section className="intro">
             <header>
@@ -16,45 +18,45 @@ function Header() {
                         <div className="mobil-container">
                             <a href="#" className="company-logo"><img src={logo} alt="logo"/></a>
                             {/* <!-- hidden burger menu --> */}
-                            <img id="burgerX" className="burger" src={hamburger} alt="" />
+                            <img id="burgerX" className="burger" src={hamburger} alt="" onClick={toggle} />
                         </div>
                         {/* <!-- container for mobil view --> */}
                         <div className="mobilUl-container">
-                        <ul id="main-ul" className="main-ul">
-                            <li className="main-li li1">
-                                <a href="#">Product <img className="flip arrow" src={arrowLight} alt="down-arrow" /></a>
-                                <ul id="dropUL-inactive" className="dropUL-inactive dropUl1">
-                                    <li><a className="sub-li" href="#">Overview</a></li>
-                                    <li><a className="sub-li" href="#">Pricing</a></li>
-                                    <li><a className="sub-li" href="#">Marketplace</a></li>
-                                    <li><a className="sub-li" href="#">Features</a></li>
-                                    <li><a className="sub-li" href="#">Intergrations</a></li>
-                                </ul>
-                            </li>
-                            <li className="main-li li2">
-                                <a href="#">Company <img className="flip arrow" src={arrowLight} alt="" /></a>
-                                <ul id="dropUL-inactive" className="dropUL-inactive dropUl2">
-                                    <li><a className="sub-li" href="#">About</a></li>
-                                    <li><a className="sub-li" href="#">About</a></li>
-                                    <li><a className="sub-li" href="#">Blog</a></li>
-                                    <li><a className="sub-li" href="#">Careers</a></li>
-                                </ul>
-                            </li>
-                            <li className="main-li li3">
-                                <a href="#">Connect <img className="flip arrow" src={arrowLight} alt="down-arrow" /></a>
-                                <ul id="dropUL-inactive" className="dropUL-inactive dropUl3">
-                                    <li><a className="sub-li" href="#">Contact</a></li>
-                                    <li><a className="sub-li" href="#">Newsletter</a></li>
-                                    <li><a className="sub-li" href="#">LinkedIn</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <hr />
+                            <ul id="main-ul" className="main-ul">
+                                <li className="main-li li1">
+                                    <a href="#">Product <img className="flip arrow" src={arrowLight} alt="down-arrow" /></a>
+                                    <ul id="dropUL-inactive" className="dropUL-inactive dropUl1">
+                                        <li><a className="sub-li" href="#">Overview</a></li>
+                                        <li><a className="sub-li" href="#">Pricing</a></li>
+                                        <li><a className="sub-li" href="#">Marketplace</a></li>
+                                        <li><a className="sub-li" href="#">Features</a></li>
+                                        <li><a className="sub-li" href="#">Intergrations</a></li>
+                                    </ul>
+                                </li>
+                                <li className="main-li li2">
+                                    <a href="#">Company <img className="flip arrow" src={arrowLight} alt="" /></a>
+                                    <ul id="dropUL-inactive" className="dropUL-inactive dropUl2">
+                                        <li><a className="sub-li" href="#">About</a></li>
+                                        <li><a className="sub-li" href="#">About</a></li>
+                                        <li><a className="sub-li" href="#">Blog</a></li>
+                                        <li><a className="sub-li" href="#">Careers</a></li>
+                                    </ul>
+                                </li>
+                                <li className="main-li li3">
+                                    <a href="#">Connect <img className="flip arrow" src={arrowLight} alt="down-arrow" /></a>
+                                    <ul id="dropUL-inactive" className="dropUL-inactive dropUl3">
+                                        <li><a className="sub-li" href="#">Contact</a></li>
+                                        <li><a className="sub-li" href="#">Newsletter</a></li>
+                                        <li><a className="sub-li" href="#">LinkedIn</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <hr />
                         {/* <!-- Hidden login and sign up buttons for mobil --> */}
-                        <div id="mobil-login" className="login">
-                            <button className="inactive">Login</button>
-                            <button className="active">Sign Up</button>
-                        </div>
+                            <div id="mobil-login" className="login">
+                                <button className="inactive">Login</button>
+                                <button className="active">Sign Up</button>
+                            </div>
                         </div>
                     </div>
                     <div id="login" className="login">
