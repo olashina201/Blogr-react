@@ -1,7 +1,7 @@
 import Header from './components/Header'
 import Design from './components/Design'
-// import Design2 from './components/Design2'
-// import Middle from './components/Middle'
+import Design2 from './components/Design2'
+import Middle from './components/Middle'
 // import Footer from './components/Footer'
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <>
       <Header />
       <Design />
-      {/* <Design2 />
       <Middle />
-      <Footer />  */}
+      <Design2 />
+      {/* <Footer />  */}
     </>
   );
 }
