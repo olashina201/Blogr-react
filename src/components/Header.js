@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style2.css'
 import logo from '../images/logo.svg'
 import hamburger from "../images/icon-hamburger.svg"
@@ -6,46 +6,33 @@ import arrowLight from "../images/icon-arrow-light.svg"
 
 
 function Header() {
+    const [nav, setNav] = useState(false)
+
     return (
         <section className="intro">
             <header>
                 <nav>
                 <div className="logo-nav">
                     <div className="mobil-container">
-                    <a href="#" className="company-logo"
-                        ><img src={logo} alt="logo"
-                    /></a>
-                    {/* <!-- hidden burger menu --> */}
-                    <img
-                        id="burgerX"
-                        className="burger"
-                        src={hamburger}
-                        alt="burger-menu"
-                    />
+                        <a href="#" className="company-logo"><img src={logo} alt="logo"/></a>
+                        {/* <!-- hidden burger menu --> */}
+                        <img id="burgerX" className="burger" src={hamburger} alt="" />
                     </div>
                     {/* <!-- container for mobil view --> */}
                     <div className="mobilUl-container">
                     <ul id="main-ul" className="main-ul">
                         <li className="main-li li1">
-                        <a href="#"
-                            >Product
-                            <img
-                            className="flip arrow"
-                            src={arrowLight}
-                            alt="down-arrow"
-                            />
-                        </a>
-                        <ul id="dropUL-inactive" className="dropUL-inactive dropUl1">
-                            <li><a className="sub-li" href="#">Overview</a></li>
-                            <li><a className="sub-li" href="#">Pricing</a></li>
-                            <li><a className="sub-li" href="#">Marketplace</a></li>
-                            <li><a className="sub-li" href="#">Features</a></li>
-                            <li><a className="sub-li" href="#">Intergrations</a></li>
-                        </ul>
+                            <a href="#">Product <img className="flip arrow" src={arrowLight} alt="down-arrow" /></a>
+                            <ul id="dropUL-inactive" className="dropUL-inactive dropUl1">
+                                <li><a className="sub-li" href="#">Overview</a></li>
+                                <li><a className="sub-li" href="#">Pricing</a></li>
+                                <li><a className="sub-li" href="#">Marketplace</a></li>
+                                <li><a className="sub-li" href="#">Features</a></li>
+                                <li><a className="sub-li" href="#">Intergrations</a></li>
+                            </ul>
                         </li>
                         <li className="main-li li2">
-                        <a href="#"
-                            >Company
+                        <a href="#">Company
                             <img
                             className="flip arrow"
                             src={arrowLight}
