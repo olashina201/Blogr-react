@@ -5,37 +5,46 @@ import logo from '../images/logo.svg'
 function Footer() {
     return (
         <div className="footer">
-            <div className="f-content">
-                <div className="flogo">
-                    <img src={ logo } alt="" />
-                </div>
-                <div className="fproduct">
-                    <h3>Product</h3>
-                    <ul className="flist">
-                        <li>Overview</li>
-                        <li>Price</li>
-                        <li>MarketPlace</li>
-                        <li>Features</li>
-                        <li>Integrations</li>
+            <footer>
+                <nav>
+                    <div class="logo-nav">
+                        <a href="#"><img src="./assets/images/logo.svg" alt="company-logo"/></a>
+                    </div>
+                    <ul class="footer-ul">
+                        <li>
+                            <a href="#">Product </a>
+                            <ul class="ul">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Marketplace</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Intergrations</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Company </a>
+                            <ul class="ul">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Connect </a>
+                            <ul class="ul">
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Newsletter</a></li>
+                                <li><a href="#">LinkedIn</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </div>
-                <div className="fcompany">
-                    <h3>Company</h3>
-                    <ul className="flist">
-                        <li>About</li>
-                        <li>Team</li>
-                        <li>Blog</li>
-                        <li>Career</li>
-                    </ul>
-                </div>
-                <div className="fconnect">
-                    <h3>Connect</h3>
-                    <ul className="flist">
-                        <li>Contact</li>
-                        <li>Newsletter</li>
-                        <li>LinkedIn</li>
-                    </ul>
-                </div>
+                </nav>
+            </footer>
+
+            <div class="attribution">
+                Challenge by
+                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Brian Farmer</a>.
             </div>
         </div>
     )
