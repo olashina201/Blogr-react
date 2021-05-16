@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './style2.css'
 import logo from '../images/logo.svg'
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
             <footer>
                 <nav>
                     <div class="logo-nav">
-                        <a href="#"><img src="./assets/images/logo.svg" alt="company-logo"/></a>
+                        <a href="#"><img src={logo} alt="company-logo"/></a>
                     </div>
                     <ul class="footer-ul">
                         <li>
@@ -44,7 +44,7 @@ function Footer() {
 
             <div class="attribution">
                 Challenge by
-                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Brian Farmer</a>.
+                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Olashina</a>.
             </div>
         </div>
     )
