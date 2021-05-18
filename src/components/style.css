@@ -60,9 +60,22 @@ p {
 .img-right{
     width: 600px;
 }
+.rsm{
+    font-size: 2.8rem;
+    color: #fff;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+}
 
 .dsm1{
     margin-bottom: 10px;
+}
+.dsm2{
+    letter-spacing: 0.1rem;
+    line-height: 2.7rem;
+    font-size: 1.6rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
 }
 .design2{
     display: flex;
@@ -85,6 +98,13 @@ p {
 .phones{
     width: 40%;
     margin-left: 50px;
+}
+.rsm2{
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    line-height: 2.7rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -126,9 +146,7 @@ p {
         align-items: center;
         text-align: center;
     }
-    .rsm2{
-        word-spacing: 10px;
-    }
+
     .dright{
         display: flex;
         flex-direction: column;
