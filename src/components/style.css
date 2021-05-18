@@ -1,7 +1,6 @@
 .middle-curve{
     background: url(../images/bg-pattern-circles.svg) center no-repeat, hsl(237, 23%, 32%);
     height: 300px;
-    margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 0px 70px 0px 70px;
     -webkit-border-radius: 0px 70px 0px 70px;
@@ -58,6 +57,11 @@
     color: #000;
 }
 
+.phones{
+    width: 40%;
+    margin-left: 50px;
+}
+
 @media screen and (max-width: 900px) {
     .mc{
         display: flex;
@@ -81,9 +85,10 @@
         width: 400px;
         margin: 0 auto;
     }
-    .phones img{
-        width: 20%;
+    .phones{
+        width:80%;
         margin-left: 50px;
+        margin-top: -200px;
     }
     .mc{
         visibility: visible;
@@ -91,20 +96,31 @@
         width: 100%;
       }
     .mcright{
-        width: 100%;
+        width: 70%;
         margin: 0 auto;
         align-items: center;
         text-align: center;
     }
-
+    .rsm2{
+        word-spacing: 10px;
+    }
     .dright{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         padding: 40px;
         margin: 0 auto;
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+    .middle-curve{
+        height: 470px;
+    }
+    .dsm1{
+        margin-bottom: 10px;
+    }
+    .dsm2{
+        word-spacing: 5px;
     }
 }
