@@ -8,14 +8,14 @@ import arrowLight from "../images/icon-arrow-light.svg"
 function Header() {
     const [nav, setNav] = useState(false)
 
-    const toggle = () => setNav(!nav);
+    const toggle = () => setNav(nav);
 
     return (
         <section className="intro">
             <header>
                 <nav>
                     <div className="logo-nav">
-                        <div className="mobil-container">
+                        <div className={ nav ? 'mobilUl-container' : "mobil-container" }>
                             <a href="#" className="company-logo"><img src={logo} alt="logo"/></a>
                             {/* <!-- hidden burger menu --> */}
                             <img id="burgerX" className="burger" src={hamburger} alt="" onClick={toggle} />
