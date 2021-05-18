@@ -758,6 +758,12 @@
   }
   
   @media screen and (max-width: 900px) {
+    .footer-ul .ul li{
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+    }
     p {
       font-family: "Overpass", sans-serif;
       font-weight: 300;
