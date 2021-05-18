@@ -323,13 +323,9 @@
   }
   
   .tsText {
-    width: 85%;
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    width: 45%;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
+    margin-left: 90px;
             justify-content: center;
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -830,6 +826,8 @@
         align-items: center;
         flex-direction: column;
         padding-bottom: 5rem;
+        width: 70%;
+        margin: 0 auto;
     }
     .tsText p {
       font-size: 1.6rem;
