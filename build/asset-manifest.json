@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac67eee1.chunk.css",
+    "main.js": "/static/js/main.6cdeabf4.chunk.js",
+    "main.js.map": "/static/js/main.6cdeabf4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.97447146.js",
+    "runtime-main.js.map": "/static/js/runtime-main.97447146.js.map",
+    "static/js/2.8e5c725c.chunk.js": "/static/js/2.8e5c725c.chunk.js",
+    "static/js/2.8e5c725c.chunk.js.map": "/static/js/2.8e5c725c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ac67eee1.chunk.css.map": "/static/css/main.ac67eee1.chunk.css.map",
+    "static/js/2.8e5c725c.chunk.js.LICENSE.txt": "/static/js/2.8e5c725c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/bg-pattern-circles.bae804b8.svg",
+    "static/media/style2.css": "/static/media/illustration-laptop-desktop.799209c2.svg",
+    "static/media/icon-arrow-light.9ba0f38e.svg": "/static/media/icon-arrow-light.9ba0f38e.svg",
+    "static/media/icon-hamburger.68867946.svg": "/static/media/icon-hamburger.68867946.svg",
+    "static/media/illustration-phones.fd23559f.svg": "/static/media/illustration-phones.fd23559f.svg",
+    "static/media/logo.1591bc20.svg": "/static/media/logo.1591bc20.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97447146.js",
+    "static/js/2.8e5c725c.chunk.js",
+    "static/css/main.ac67eee1.chunk.css",
+    "static/js/main.6cdeabf4.chunk.js"
+  ]
+}
